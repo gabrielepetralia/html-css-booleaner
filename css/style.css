@@ -1,19 +1,48 @@
+/* GENERAL */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-header{
+main {
+  padding-left: 11px;
+}
+
+/* HEADER */
+header {
   height: 190px;
-  background-color:dodgerblue;
+  background-color:rgb(60, 149, 238);
   background-image: url('../img/pattern.png');
   position: relative;
 }
 
-#logo{
+#logo {
   width: 370px;
   position: absolute;
   bottom: 19px;
   left: 12px;
 }
+
+/* MAIN */
+
+/* SECTION TITLE */
+section.title h1 {
+  font-size: 72px;
+  padding-top: 32px;
+}
+
+section.title div{
+  color: gray;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+section.title div span {
+  color: rgb(60, 149, 238);
+}
+
+section.title div.date {
+  font-size: 23px;
+}
+
