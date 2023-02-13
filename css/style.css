@@ -6,7 +6,7 @@
 }
 
 main {
-  padding-left: 11px;
+  padding-left: 12px;
 }
 
 /* HEADER */
@@ -20,7 +20,7 @@ header {
 #logo {
   width: 370px;
   position: absolute;
-  bottom: 19px;
+  bottom: 20px;
   left: 12px;
 }
 
@@ -38,7 +38,7 @@ section.title div{
   font-weight: bold;
 }
 
-section.title div span {
+section.title span {
   color: rgb(60, 149, 238);
 }
 
@@ -46,3 +46,34 @@ section.title div.date {
   font-size: 23px;
 }
 
+/* SECTION TIM-PHOTOS */
+.tim-photo {
+  float: left;
+  margin: 40px 12px 10px 0;
+  height: 700px;
+  width: calc(50% - 12px);
+  background-size: cover;
+  background-position: center;
+}  
+
+.tim-photo:first-child
+{
+  background-image: url('../img/tim-1.jpg');
+}
+
+.tim-photo:nth-child(2) {
+  background-image: url('../img/tim-2.jpg');
+}
+
+.photo-credits{
+  font-size: 20px;
+}
+
+p{
+  padding: 20px 0;
+  font-size: 24px;
+}
+
+p span{
+  background-color: rgb(243, 243, 96);
+}
