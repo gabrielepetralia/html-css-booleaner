@@ -3,3 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header{
+  height: 190px;
+  background-color:dodgerblue;
+  background-image: url('../img/pattern.png');
+  position: relative;
+}
+
+#logo{
+  width: 370px;
+  position: absolute;
+  bottom: 19px;
+  left: 12px;
+}
