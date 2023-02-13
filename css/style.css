@@ -1,12 +1,20 @@
 /* GENERAL */
 * {
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
 main {
   padding-left: 12px;
+  font-size: 24px
+}
+
+p span {
+  background-color: rgb(243, 243, 96);
+}
+
+ul {
+  padding-top: 32px;
 }
 
 /* HEADER */
@@ -24,6 +32,7 @@ header {
   left: 12px;
 }
 
+
 /* MAIN */
 
 /* SECTION TITLE */
@@ -32,7 +41,7 @@ section.title h1 {
   padding-top: 32px;
 }
 
-section.title div{
+section.title div {
   color: gray;
   font-size: 35px;
   font-weight: bold;
@@ -44,20 +53,25 @@ section.title span {
 
 section.title div.date {
   font-size: 23px;
+  font-weight: normal;
 }
 
 /* SECTION TIM-PHOTOS */
+section.tim-photos{
+    padding: 32px 0;
+}
+
 .tim-photo {
   float: left;
-  margin: 40px 12px 10px 0;
+  margin-right: 12px;
+  margin-bottom: 10px;
   height: 700px;
   width: calc(50% - 12px);
   background-size: cover;
   background-position: center;
 }  
 
-.tim-photo:first-child
-{
+.tim-photo:first-child {
   background-image: url('../img/tim-1.jpg');
 }
 
@@ -65,15 +79,37 @@ section.title div.date {
   background-image: url('../img/tim-2.jpg');
 }
 
-.photo-credits{
+.photo-credits {
+  margin-top: 50px;
   font-size: 20px;
 }
 
-p{
-  padding: 20px 0;
-  font-size: 24px;
+/* TABLE */
+table {
+  padding: 32px 0;
+  width: 100%;
+  text-align: left;
 }
 
-p span{
-  background-color: rgb(243, 243, 96);
+th {
+  color: white;
 }
+
+th, td {
+  padding-left: 5px;
+}
+
+th:first-child, th:nth-child(2) {
+  width: 25%;
+}
+
+tr:first-child {
+  background-color: rgb(60, 149, 238);
+}
+
+tr:nth-child(2), tr:nth-child(4) {
+  background-color: rgb(166, 233, 241);
+}
+
+
+
