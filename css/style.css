@@ -36,7 +36,7 @@ header {
 /* MAIN */
 
 /* SECTION TITLE */
-section.title h1 {
+h1 {
   font-size: 72px;
   padding-top: 32px;
 }
@@ -52,7 +52,7 @@ section.title span {
 }
 
 section.title div.date {
-  font-size: 23px;
+  font-size: 22px;
   font-weight: normal;
 }
 
@@ -111,5 +111,32 @@ tr:nth-child(2), tr:nth-child(4) {
   background-color: rgb(166, 233, 241);
 }
 
+/* SECTION ADVICES */
+section.advices {
+  padding-top: 32px;
+}
+
+h3 {
+  color: gray;
+  padding-bottom: 12px;
+}
+
+section.advices img {
+  width: 400px;
+  padding-bottom: 12px;
+}
+
+.adv-img {
+  position: relative;
+}
+
+.adv-img div {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
 
 
